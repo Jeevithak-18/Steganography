@@ -6,13 +6,17 @@ This method allows you to encrypt and decrypt messages securely using a password
 Features:
 
 Encryption : Embeds a secret message inside an image using pixel manipulation.
+
 Decryption : Extracts the hidden message from the image, requiring a password for access.
+
 Password protection : Ensures that only users with the correct password can decrypt the message.
 
 Requirements:
 
-- Python
-- OpenCV (cv2)
+Python
+
+OpenCV (cv2)
 
 Install the required dependencies by running:
+
 pip install opencv-python
